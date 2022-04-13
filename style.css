@@ -2,9 +2,12 @@
   font-family: 'Gowun Dodum', sans-serif;
 }
 
+body {
+  background-color: white;
+  color: black;
+}
 
 header {
-  /* background-color: orange; */
   text-align: center;
   font-size: 25px;
   padding: 15px;
@@ -24,8 +27,6 @@ header {
 .profile-image {
   position: relative;
   width: 300px;
-  /* margin-top: 40px; */
-  /* margin-left: 10%; */
 }
 
 .overlay {
@@ -44,19 +45,6 @@ header {
   opacity: 1;
 }
 
-
-/* .profile img {
-  height: 300px;
-  border-radius: 50%; */
-  /* display: block; */
-  /* margin-left: auto;
-  margin-right: auto; */
-  /* float: left;
-  margin-left: 25%;
-  margin-top: 50px;
-  margin-bottom: 50px;
-} */
-
 .text1 {
   text-align: left;
   margin-top: auto;
@@ -64,17 +52,10 @@ header {
   margin-right: auto;
   margin-left: auto;
 }
+
 .text2 {
   text-align: center;
 }
-
-/* .sns {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 30%;
-} */
-
 
 ul {
   clear: left;
@@ -101,7 +82,6 @@ li a {
   text-decoration: none;
 }
 
-
 li a:hover {
   background-color: #111;
 }
@@ -119,6 +99,11 @@ h4 {
   font-size: 17px;
 }
 
+.giveup {
+  display: flex;
+  justify-content: center;
+}
+
 .estp {
   display: flex;
   text-align: center;
@@ -129,7 +114,6 @@ h4 {
 
 .container1 {
   position: relative;
-  /* width: 50%; */
 }
 
 .img {
@@ -172,14 +156,7 @@ h4 {
 
 .container2 {
   position: relative;
-  /* width: 50%; */
 }
-
-/* .img {
-  display: block;
-  width: 100%;
-  height: auto;
-} */
 
 .overlays {
   position: absolute;
@@ -211,19 +188,11 @@ h4 {
   overflow: hidden;
 }
 
-
 /* MBTI T */
 
 .container3 {
   position: relative;
-  /* width: 50%; */
 }
-
-/* .img {
-  display: block;
-  width: 100%;
-  height: auto;
-} */
 
 .overlayt {
   position: absolute;
@@ -254,7 +223,6 @@ h4 {
   white-space: nowrap;
   overflow: hidden;
 }
-
 
 /* MBTI P */
 
@@ -299,7 +267,6 @@ h4 {
   overflow: hidden;
 }
 
-
 .ch-img-wrap {
   text-align: center;
 }
@@ -318,13 +285,13 @@ h4 {
 }
 
 .kpop-text {
-  margin-left: 9%;
+  margin-left: 10.5%;
   margin-right: 2%;
   text-align: center;
 }
 
 .apple-text {
-  margin-left: 4%;
+  margin-left: 5.5%;
 }
 
 .pororo-text {
@@ -338,10 +305,71 @@ h4 {
 
 
 footer {
-  /* background-color: orange; */
   text-align: center;
   font-size: 18px;
   padding: 20px;
   border-top: 3px dotted;
   border-bottom: 3px double;
 }
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+}
+
+.answer {
+  cursor: pointer;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  cursor: pointer;
+}
+
+.phoneNum:hover {
+  background-color: gray;
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.emailAdd:hover {
+  background-color: gray;
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.instagramID:hover {
+  background-color: gray;
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.address:hover {
+  background-color: gray;
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.container {
+  text-align: center;
+}
+
+.thankyou {
+  width: 400px;
+}
+
+/* .giveup {
+  margin-left: 46%;
+  display: flex;
+  justify-content: center;
+} */
